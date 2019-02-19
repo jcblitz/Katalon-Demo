@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+All Tests,Chrome 72.0.3626.109,,2019-02-19 12:46:38,2019-02-19 12:46:59,20.935s,PASSED
+,,,,,,
+Test Cases/Verify Homepage Components,Chrome 72.0.3626.109,,2019-02-19 12:46:38,2019-02-19 12:46:43,5.007s,PASSED
+"openBrowser(""http://automationpractice.com/index.php"")",Chrome 72.0.3626.109,,2019-02-19 12:46:39,2019-02-19 12:46:43,4.281s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Cart""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:46:43,2019-02-19 12:46:43,0.070s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Search Bar""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:46:43,2019-02-19 12:46:43,0.027s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Menu Bar""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:46:43,2019-02-19 12:46:43,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Home Slider""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:46:43,2019-02-19 12:46:43,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/CMS Top""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:46:43,2019-02-19 12:46:43,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Featured Items""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:46:43,2019-02-19 12:46:43,0.025s,PASSED
+closeBrowser(),Chrome 72.0.3626.109,,2019-02-19 12:46:43,2019-02-19 12:46:43,0.110s,PASSED
+,,,,,,
+Test Cases/Add Product To Cart,Chrome 72.0.3626.109,,2019-02-19 12:46:43,2019-02-19 12:46:59,15.506s,PASSED
+"openBrowser(""http://automationpractice.com/index.php?id_product=1&controller=product#/color-orange/size-m"")",Chrome 72.0.3626.109,,2019-02-19 12:46:43,2019-02-19 12:46:46,2.581s,PASSED
+"selectOptionByValue(findTestObject(""Page_Faded Short Sleeve T-shirts -/Select Size""), ""2"", false)",Chrome 72.0.3626.109,,2019-02-19 12:46:46,2019-02-19 12:46:46,0.102s,PASSED
+"click(findTestObject(""Page_Faded Short Sleeve T-shirts -/Add To Cart""))",Chrome 72.0.3626.109,,2019-02-19 12:46:46,2019-02-19 12:46:46,0.194s,PASSED
+"waitForElementVisible(findTestObject(""Page_Faded Short Sleeve T-shirts -/Proceed to checkout""), 5)",Chrome 72.0.3626.109,,2019-02-19 12:46:46,2019-02-19 12:46:47,0.580s,PASSED
+"click(findTestObject(""Page_Faded Short Sleeve T-shirts -/Proceed to checkout""))",Chrome 72.0.3626.109,,2019-02-19 12:46:47,2019-02-19 12:46:48,0.673s,PASSED
+"click(findTestObject(""Page_Order - My Store/span_Proceed to checkout""))",Chrome 72.0.3626.109,,2019-02-19 12:46:48,2019-02-19 12:46:49,1.067s,PASSED
+"setText(findTestObject(""Page_Login - My Store/Email Address""), ""email-"" + randomString() + ""@test.com"")",Chrome 72.0.3626.109,,2019-02-19 12:46:49,2019-02-19 12:46:49,0.005s,PASSED
+"chars = ""abcdefghijklmnopqrstuvwxyz0123456789""",Chrome 72.0.3626.109,,2019-02-19 12:46:49,2019-02-19 12:46:49,0.001s,PASSED
+length = 5,Chrome 72.0.3626.109,,2019-02-19 12:46:49,2019-02-19 12:46:49,0.001s,PASSED
+rand = new java.util.Random(),Chrome 72.0.3626.109,,2019-02-19 12:46:49,2019-02-19 12:46:49,0.003s,PASSED
+sb = new java.lang.StringBuilder(),Chrome 72.0.3626.109,,2019-02-19 12:46:49,2019-02-19 12:46:49,0.007s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 72.0.3626.109,,2019-02-19 12:46:49,2019-02-19 12:46:49,0.011s,PASSED
+return sb.toString(),Chrome 72.0.3626.109,,2019-02-19 12:46:49,2019-02-19 12:46:49,0.233s,PASSED
+"click(findTestObject(""Page_Login - My Store/Create An Account Button""))",Chrome 72.0.3626.109,,2019-02-19 12:46:49,2019-02-19 12:46:49,0.100s,PASSED
+"click(findTestObject(""Page_Login - My Store/Gender""))",Chrome 72.0.3626.109,,2019-02-19 12:46:49,2019-02-19 12:46:50,1.136s,PASSED
+"setText(findTestObject(""Page_Login - My Store/Firstname""), ""Sample"")",Chrome 72.0.3626.109,,2019-02-19 12:46:50,2019-02-19 12:46:50,0.185s,PASSED
+"setText(findTestObject(""Page_Login - My Store/Lastname""), ""User"")",Chrome 72.0.3626.109,,2019-02-19 12:46:50,2019-02-19 12:46:50,0.194s,PASSED
+"setEncryptedText(findTestObject(""Page_Login - My Store/Password""), ""E3oD6E1tWJRe8Jx6DFuHew=="")",Chrome 72.0.3626.109,,2019-02-19 12:46:50,2019-02-19 12:46:51,0.311s,PASSED
+"selectOptionByValue(findTestObject(""Page_Login - My Store/Birth - Day""), ""1"", true)",Chrome 72.0.3626.109,,2019-02-19 12:46:51,2019-02-19 12:46:51,0.441s,PASSED
+"selectOptionByValue(findTestObject(""Page_Login - My Store/Birth - Month""), ""1"", true)",Chrome 72.0.3626.109,,2019-02-19 12:46:51,2019-02-19 12:46:51,0.224s,PASSED
+"selectOptionByValue(findTestObject(""Page_Login - My Store/Birth - Year""), ""2019"", true)",Chrome 72.0.3626.109,,2019-02-19 12:46:51,2019-02-19 12:46:52,0.956s,PASSED
+"setText(findTestObject(""Page_Login - My Store/Address 1""), ""1111 main st"")",Chrome 72.0.3626.109,,2019-02-19 12:46:52,2019-02-19 12:46:53,0.177s,PASSED
+"setText(findTestObject(""Page_Login - My Store/City""), ""Wayne"")",Chrome 72.0.3626.109,,2019-02-19 12:46:53,2019-02-19 12:46:53,0.134s,PASSED
+"selectOptionByValue(findTestObject(""Page_Login - My Store/State""), ""38"", true)",Chrome 72.0.3626.109,,2019-02-19 12:46:53,2019-02-19 12:46:54,0.863s,PASSED
+"setText(findTestObject(""Page_Login - My Store/Postcode""), ""19406"")",Chrome 72.0.3626.109,,2019-02-19 12:46:54,2019-02-19 12:46:54,0.156s,PASSED
+"setText(findTestObject(""Page_Login - My Store/Phone - Mobile""), ""2155551234"")",Chrome 72.0.3626.109,,2019-02-19 12:46:54,2019-02-19 12:46:54,0.176s,PASSED
+"click(findTestObject(""Page_Login - My Store/Register Button""))",Chrome 72.0.3626.109,,2019-02-19 12:46:54,2019-02-19 12:46:55,1.112s,PASSED
+"setText(findTestObject(""Object Repository/Page_Order - My Store/textarea_If you would like to""), ""This is a test order, please ignore. "")",Chrome 72.0.3626.109,,2019-02-19 12:46:55,2019-02-19 12:46:55,0.205s,PASSED
+"click(findTestObject(""Page_Faded Short Sleeve T-shirts -/Process Address""))",Chrome 72.0.3626.109,,2019-02-19 12:46:55,2019-02-19 12:46:56,0.688s,PASSED
+"click(findTestObject(""Object Repository/Page_Order - My Store/input_2.00_cgv""))",Chrome 72.0.3626.109,,2019-02-19 12:46:56,2019-02-19 12:46:56,0.087s,PASSED
+"click(findTestObject(""Object Repository/Page_Order - My Store/span_Proceed to checkout_1""))",Chrome 72.0.3626.109,,2019-02-19 12:46:56,2019-02-19 12:46:57,0.697s,PASSED
+"click(findTestObject(""Page_Order - My Store/Pay By Check""))",Chrome 72.0.3626.109,,2019-02-19 12:46:57,2019-02-19 12:46:57,0.562s,PASSED
+"click(findTestObject(""Object Repository/Page_My Store/span_I confirm my order""))",Chrome 72.0.3626.109,,2019-02-19 12:46:57,2019-02-19 12:46:58,1.146s,PASSED
+"verifyElementText(findTestObject(""Confirmation Page/Order Message Text""), ""Your order on My Store is complete."")",Chrome 72.0.3626.109,,2019-02-19 12:46:58,2019-02-19 12:46:58,0.054s,PASSED
+"verifyElementText(findTestObject(""Confirmation Page/Total Price""), ""$18.51"")",Chrome 72.0.3626.109,,2019-02-19 12:46:58,2019-02-19 12:46:59,0.035s,PASSED
+closeBrowser(),Chrome 72.0.3626.109,,2019-02-19 12:46:59,2019-02-19 12:46:59,0.101s,PASSED

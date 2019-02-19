@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Components Present,Chrome 72.0.3626.109,,2019-02-19 12:45:43,2019-02-19 12:45:49,6.326s,PASSED
+,,,,,,
+Test Cases/Verify Homepage Components,Chrome 72.0.3626.109,,2019-02-19 12:45:44,2019-02-19 12:45:49,5.663s,PASSED
+"openBrowser(""http://automationpractice.com/index.php"")",Chrome 72.0.3626.109,,2019-02-19 12:45:44,2019-02-19 12:45:49,4.930s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Cart""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:45:49,2019-02-19 12:45:49,0.132s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Search Bar""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:45:49,2019-02-19 12:45:49,0.036s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Menu Bar""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:45:49,2019-02-19 12:45:49,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Home Slider""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:45:49,2019-02-19 12:45:49,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/CMS Top""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:45:49,2019-02-19 12:45:49,0.033s,PASSED
+"verifyElementPresent(findTestObject(""Home Page/Featured Items""), 0)",Chrome 72.0.3626.109,,2019-02-19 12:45:49,2019-02-19 12:45:49,0.021s,PASSED

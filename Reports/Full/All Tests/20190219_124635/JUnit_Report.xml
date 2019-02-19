@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All Tests" time="20" tests="2" failures="0" errors="0">
+   <testsuite name="All Tests" tests="2" failures="0" errors="0" time="20" timestamp="2019-02-19 12:46:38" hostname="jaredblitzstein - 192.168.23.13" id="Test Suites/Full/All Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jaredblitzstein/Katalon Studio/EcommerceAutomation/Reports/Full/All Tests/20190219_124635"/>
+         <property name="logFiles" value="/Users/jaredblitzstein/Katalon Studio/EcommerceAutomation/Reports/Full/All Tests/20190219_124635/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jaredblitzstein - 192.168.23.13"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.23.13"/>
+         <property name="sessionId" value="f02f9601819ba4efc95e05c7aee6de06"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Verify Homepage Components" classname="Test Cases/Verify Homepage Components" status="PASSED">
+         <system-out><![CDATA[2019-02-19 12:46:38 - [TEST_CASE][PASSED] - Test Cases/Verify Homepage Components: Test Cases/Verify Homepage Components
+
+2019-02-19 12:46:39 - [TEST_STEP][PASSED] - openBrowser("http://automationpractice.com/index.php"): Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2019-02-19 12:46:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-19 12:46:39 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-19 12:46:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2019-02-19 12:46:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Cart"), 0): Object 'Object Repository/Home Page/Cart' is present
+
+2019-02-19 12:46:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:46:43 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Cart' is present
+
+2019-02-19 12:46:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Search Bar"), 0): Object 'Object Repository/Home Page/Search Bar' is present
+
+2019-02-19 12:46:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:46:43 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Search Bar' is present
+
+2019-02-19 12:46:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Menu Bar"), 0): Object 'Object Repository/Home Page/Menu Bar' is present
+
+2019-02-19 12:46:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:46:43 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Menu Bar' is present
+
+2019-02-19 12:46:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Home Slider"), 0): Object 'Object Repository/Home Page/Home Slider' is present
+
+2019-02-19 12:46:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:46:43 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Home Slider' is present
+
+2019-02-19 12:46:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/CMS Top"), 0): Object 'Object Repository/Home Page/CMS Top' is present
+
+2019-02-19 12:46:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:46:43 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/CMS Top' is present
+
+2019-02-19 12:46:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Featured Items"), 0): Object 'Object Repository/Home Page/Featured Items' is present
+
+2019-02-19 12:46:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:46:43 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Featured Items' is present
+
+2019-02-19 12:46:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-19 12:46:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Product To Cart" classname="Test Cases/Add Product To Cart" status="PASSED">
+         <system-out><![CDATA[2019-02-19 12:46:43 - [TEST_CASE][PASSED] - Test Cases/Add Product To Cart: Test Cases/Add Product To Cart
+
+2019-02-19 12:46:43 - [TEST_STEP][PASSED] - openBrowser("http://automationpractice.com/index.php?id_product=1&controller=product#/color-orange/size-m"): Browser is opened with url: 'http://automationpractice.com/index.php?id_product=1&controller=product#/color-orange/size-m'
+
+2019-02-19 12:46:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-19 12:46:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php?id_product=1&controller=product#/color-orange/size-m'
+
+2019-02-19 12:46:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Faded Short Sleeve T-shirts -/Select Size"), "2", false): All options with value '2' are selected in object 'Object Repository/Page_Faded Short Sleeve T-shirts -/Select Size' 
+
+2019-02-19 12:46:46 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Faded Short Sleeve T-shirts -/Select Size' 
+
+2019-02-19 12:46:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Faded Short Sleeve T-shirts -/Add To Cart")): Object: 'Object Repository/Page_Faded Short Sleeve T-shirts -/Add To Cart' is clicked on
+
+2019-02-19 12:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Faded Short Sleeve T-shirts -/Add To Cart' is clicked on
+
+2019-02-19 12:46:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Faded Short Sleeve T-shirts -/Proceed to checkout"), 5): Object 'Object Repository/Page_Faded Short Sleeve T-shirts -/Proceed to checkout' is visible
+
+2019-02-19 12:46:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Faded Short Sleeve T-shirts -/Proceed to checkout' is visible
+
+2019-02-19 12:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Faded Short Sleeve T-shirts -/Proceed to checkout")): Object: 'Object Repository/Page_Faded Short Sleeve T-shirts -/Proceed to checkout' is clicked on
+
+2019-02-19 12:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Faded Short Sleeve T-shirts -/Proceed to checkout' is clicked on
+
+2019-02-19 12:46:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Order - My Store/span_Proceed to checkout")): Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' is clicked on
+
+2019-02-19 12:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout' is clicked on
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - My Store/Email Address"), "email-" + randomString() + "@test.com"): null
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - chars = "abcdefghijklmnopqrstuvwxyz0123456789": null
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - length = 5: null
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - sb = new java.lang.StringBuilder(): null
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - return sb.toString(): Text 'email-kmyzu@test.com' is set on object 'Object Repository/Page_Login - My Store/Email Address'
+
+2019-02-19 12:46:49 - [MESSAGE][PASSED] - Text 'email-kmyzu@test.com' is set on object 'Object Repository/Page_Login - My Store/Email Address'
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - My Store/Create An Account Button")): Object: 'Object Repository/Page_Login - My Store/Create An Account Button' is clicked on
+
+2019-02-19 12:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/Create An Account Button' is clicked on
+
+2019-02-19 12:46:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - My Store/Gender")): Object: 'Object Repository/Page_Login - My Store/Gender' is clicked on
+
+2019-02-19 12:46:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/Gender' is clicked on
+
+2019-02-19 12:46:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - My Store/Firstname"), "Sample"): Text 'Sample' is set on object 'Object Repository/Page_Login - My Store/Firstname'
+
+2019-02-19 12:46:50 - [MESSAGE][PASSED] - Text 'Sample' is set on object 'Object Repository/Page_Login - My Store/Firstname'
+
+2019-02-19 12:46:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - My Store/Lastname"), "User"): Text 'User' is set on object 'Object Repository/Page_Login - My Store/Lastname'
+
+2019-02-19 12:46:50 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Page_Login - My Store/Lastname'
+
+2019-02-19 12:46:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Login - My Store/Password"), "E3oD6E1tWJRe8Jx6DFuHew=="): Text ****** has been set on object 'Object Repository/Page_Login - My Store/Password'
+
+2019-02-19 12:46:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/Password'
+
+2019-02-19 12:46:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Login - My Store/Birth - Day"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/Birth - Day'  using regular expression
+
+2019-02-19 12:46:51 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/Birth - Day'  using regular expression
+
+2019-02-19 12:46:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Login - My Store/Birth - Month"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/Birth - Month'  using regular expression
+
+2019-02-19 12:46:51 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/Birth - Month'  using regular expression
+
+2019-02-19 12:46:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Login - My Store/Birth - Year"), "2019", true): All options with value '2019' are selected in object 'Object Repository/Page_Login - My Store/Birth - Year'  using regular expression
+
+2019-02-19 12:46:52 - [MESSAGE][PASSED] - All options with value '2019' are selected in object 'Object Repository/Page_Login - My Store/Birth - Year'  using regular expression
+
+2019-02-19 12:46:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - My Store/Address 1"), "1111 main st"): Text '1111 main st' is set on object 'Object Repository/Page_Login - My Store/Address 1'
+
+2019-02-19 12:46:53 - [MESSAGE][PASSED] - Text '1111 main st' is set on object 'Object Repository/Page_Login - My Store/Address 1'
+
+2019-02-19 12:46:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - My Store/City"), "Wayne"): Text 'Wayne' is set on object 'Object Repository/Page_Login - My Store/City'
+
+2019-02-19 12:46:53 - [MESSAGE][PASSED] - Text 'Wayne' is set on object 'Object Repository/Page_Login - My Store/City'
+
+2019-02-19 12:46:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Login - My Store/State"), "38", true): All options with value '38' are selected in object 'Object Repository/Page_Login - My Store/State'  using regular expression
+
+2019-02-19 12:46:54 - [MESSAGE][PASSED] - All options with value '38' are selected in object 'Object Repository/Page_Login - My Store/State'  using regular expression
+
+2019-02-19 12:46:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - My Store/Postcode"), "19406"): Text '19406' is set on object 'Object Repository/Page_Login - My Store/Postcode'
+
+2019-02-19 12:46:54 - [MESSAGE][PASSED] - Text '19406' is set on object 'Object Repository/Page_Login - My Store/Postcode'
+
+2019-02-19 12:46:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - My Store/Phone - Mobile"), "2155551234"): Text '2155551234' is set on object 'Object Repository/Page_Login - My Store/Phone - Mobile'
+
+2019-02-19 12:46:54 - [MESSAGE][PASSED] - Text '2155551234' is set on object 'Object Repository/Page_Login - My Store/Phone - Mobile'
+
+2019-02-19 12:46:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - My Store/Register Button")): Object: 'Object Repository/Page_Login - My Store/Register Button' is clicked on
+
+2019-02-19 12:46:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/Register Button' is clicked on
+
+2019-02-19 12:46:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Order - My Store/textarea_If you would like to"), "This is a test order, please ignore. "): Text 'This is a test order, please ignore. ' is set on object 'Object Repository/Page_Order - My Store/textarea_If you would like to'
+
+2019-02-19 12:46:55 - [MESSAGE][PASSED] - Text 'This is a test order, please ignore. ' is set on object 'Object Repository/Page_Order - My Store/textarea_If you would like to'
+
+2019-02-19 12:46:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Faded Short Sleeve T-shirts -/Process Address")): Object: 'Object Repository/Page_Faded Short Sleeve T-shirts -/Process Address' is clicked on
+
+2019-02-19 12:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Faded Short Sleeve T-shirts -/Process Address' is clicked on
+
+2019-02-19 12:46:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Order - My Store/input_2.00_cgv")): Object: 'Object Repository/Page_Order - My Store/input_2.00_cgv' is clicked on
+
+2019-02-19 12:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/input_2.00_cgv' is clicked on
+
+2019-02-19 12:46:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Order - My Store/span_Proceed to checkout_1")): Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout_1' is clicked on
+
+2019-02-19 12:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/span_Proceed to checkout_1' is clicked on
+
+2019-02-19 12:46:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Order - My Store/Pay By Check")): Object: 'Object Repository/Page_Order - My Store/Pay By Check' is clicked on
+
+2019-02-19 12:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/Pay By Check' is clicked on
+
+2019-02-19 12:46:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My Store/span_I confirm my order")): Object: 'Object Repository/Page_My Store/span_I confirm my order' is clicked on
+
+2019-02-19 12:46:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/span_I confirm my order' is clicked on
+
+2019-02-19 12:46:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Confirmation Page/Order Message Text"), "Your order on My Store is complete."): Actual text and expected text of test object 'Object Repository/Confirmation Page/Order Message Text' are matched.
+
+2019-02-19 12:46:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Confirmation Page/Order Message Text' are matched.
+
+2019-02-19 12:46:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Confirmation Page/Total Price"), "$18.51"): Actual text and expected text of test object 'Object Repository/Confirmation Page/Total Price' are matched.
+
+2019-02-19 12:46:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Confirmation Page/Total Price' are matched.
+
+2019-02-19 12:46:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-19 12:46:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-19 12:46:38 - [TEST_SUITE][PASSED] - All Tests: Test Cases/Add Product To Cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

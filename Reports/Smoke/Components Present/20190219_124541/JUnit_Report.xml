@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Components Present" time="6" tests="1" failures="0" errors="0">
+   <testsuite name="Components Present" tests="1" failures="0" errors="0" time="6" timestamp="2019-02-19 12:45:43" hostname="jaredblitzstein - 192.168.23.13" id="Test Suites/Smoke/Components Present">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jaredblitzstein/Katalon Studio/EcommerceAutomation/Reports/Smoke/Components Present/20190219_124541"/>
+         <property name="logFiles" value="/Users/jaredblitzstein/Katalon Studio/EcommerceAutomation/Reports/Smoke/Components Present/20190219_124541/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jaredblitzstein - 192.168.23.13"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.23.13"/>
+         <property name="sessionId" value="7c77ea3aba139ab33147a7de0470e2b5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Verify Homepage Components" classname="Test Cases/Verify Homepage Components" status="PASSED">
+         <system-out><![CDATA[2019-02-19 12:45:44 - [TEST_CASE][PASSED] - Test Cases/Verify Homepage Components: Test Cases/Verify Homepage Components
+
+2019-02-19 12:45:44 - [TEST_STEP][PASSED] - openBrowser("http://automationpractice.com/index.php"): Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2019-02-19 12:45:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-19 12:45:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-19 12:45:49 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2019-02-19 12:45:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Cart"), 0): Object 'Object Repository/Home Page/Cart' is present
+
+2019-02-19 12:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:45:49 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Cart' is present
+
+2019-02-19 12:45:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Search Bar"), 0): Object 'Object Repository/Home Page/Search Bar' is present
+
+2019-02-19 12:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:45:49 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Search Bar' is present
+
+2019-02-19 12:45:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Menu Bar"), 0): Object 'Object Repository/Home Page/Menu Bar' is present
+
+2019-02-19 12:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:45:49 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Menu Bar' is present
+
+2019-02-19 12:45:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Home Slider"), 0): Object 'Object Repository/Home Page/Home Slider' is present
+
+2019-02-19 12:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:45:49 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Home Slider' is present
+
+2019-02-19 12:45:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/CMS Top"), 0): Object 'Object Repository/Home Page/CMS Top' is present
+
+2019-02-19 12:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:45:49 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/CMS Top' is present
+
+2019-02-19 12:45:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home Page/Featured Items"), 0): Object 'Object Repository/Home Page/Featured Items' is present
+
+2019-02-19 12:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-19 12:45:49 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page/Featured Items' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-19 12:45:43 - [TEST_SUITE][PASSED] - Components Present: Test Cases/Verify Homepage Components]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
